@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 73.0.3683.103,,2019-04-13 12:14:30,2019-04-13 12:15:19,49.573s,FAILED
+,,,,,,
+Test Cases/April13/failure_handling,Chrome 73.0.3683.103,,2019-04-13 12:14:30,2019-04-13 12:15:19,49.111s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-13 12:14:31,2019-04-13 12:14:37,6.129s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-13 12:14:37,2019-04-13 12:14:41,3.746s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 73.0.3683.103,,2019-04-13 12:14:41,2019-04-13 12:14:41,0.242s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 73.0.3683.103,,2019-04-13 12:14:41,2019-04-13 12:14:42,0.324s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Chrome 73.0.3683.103,,2019-04-13 12:14:42,2019-04-13 12:14:43,1.940s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""))",Chrome 73.0.3683.103,,2019-04-13 12:14:43,2019-04-13 12:15:16,32.189s,FAILED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-13 12:15:16,2019-04-13 12:15:17,1.553s,FAILED

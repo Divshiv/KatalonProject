@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SampleTestSuite" time="156" tests="1" failures="2" errors="0">
+   <testsuite name="SampleTestSuite" tests="1" failures="2" errors="0" time="156" timestamp="2019-04-12 14:50:46" hostname="Hvuser - EBHVR11-01-04.hexa.training.local" id="Test Suites/SampleTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalontraining_Divya\\SampleKatalonTraining\\Reports\\SampleTestSuite\\20190412_145040"/>
+         <property name="logFiles" value="D:\\Katalontraining_Divya\\SampleKatalonTraining\\Reports\\SampleTestSuite\\20190412_145040\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hvuser - EBHVR11-01-04.hexa.training.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="172.25.228.136"/>
+         <property name="sessionId" value="f286e813-1061-4c30-a146-2811d26b602c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Test1" classname="Test Cases/Test1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2687)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$authenticate$1.call(Unknown Source)
+	at Test1.run(Test1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page. Reason: 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-04-12 14:50:46 - [TEST_CASE][FAILED] - Test Cases/Test1: Test Cases/Test1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2687)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$authenticate$1.call(Unknown Source)
+	at Test1.run(Test1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page. Reason: 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-04-12 14:50:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-12 14:50:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-12 14:50:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-12 14:51:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-12 14:51:16 - [TEST_STEP][PASSED] - navigateToUrl("https://login.zscloud.net/smsamlq?urlosfc=origurl%3Dhttps%253A%252F%252Fopensource%252ddemo%252eorangehrmlive%252ecom%252f%26_ordtok%3Dk643WVZ04q3ZMpq0CkCr7M7nFn&urlodmn=https%253A%252F%252Fopensource%252ddemo%252eorangehrmlive%252ecom%252f&saml_id=qZ07ZVZ2HPHMs&jscript=1set"): Navigate to 'https://login.zscloud.net/smsamlq?urlosfc=origurl%3Dhttps%253A%252F%252Fopensource%252ddemo%252eorangehrmlive%252ecom%252f%26_ordtok%3Dk643WVZ04q3ZMpq0CkCr7M7nFn&urlodmn=https%253A%252F%252Fopensource%252ddemo%252eorangehrmlive%252ecom%252f&saml_id=qZ07ZVZ2HPHMs&jscript=1set' successfully
+
+2019-04-12 14:51:24 - [MESSAGE][PASSED] - Navigate to 'https://login.zscloud.net/smsamlq?urlosfc=origurl%3Dhttps%253A%252F%252Fopensource%252ddemo%252eorangehrmlive%252ecom%252f%26_ordtok%3Dk643WVZ04q3ZMpq0CkCr7M7nFn&urlodmn=https%253A%252F%252Fopensource%252ddemo%252eorangehrmlive%252ecom%252f&saml_id=qZ07ZVZ2HPHMs&jscript=1set' successfully
+
+2019-04-12 14:51:24 - [TEST_STEP][FAILED] - authenticate("https://fs.hexaware.com/adfs/ls/wia", "41394@hexaware.com", "Nikhil123$", 30): authenticate("https://fs.hexaware.com/adfs/ls/wia", "41394@hexaware.com", "Nikhil123$", 30) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2687)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$authenticate$1.call(Unknown Source)
+	at Test1.run(Test1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page. Reason: 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-04-12 14:51:28 - [MESSAGE][FAILED] - Unable to navigate to authenticated page (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page. Reason: 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2687)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$authenticate$1.call(Unknown Source)
+	at Test1.run(Test1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+)
+
+2019-04-12 14:51:28 - [MESSAGE][FAILED] - Unable to navigate to authenticated page (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2687)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$authenticate$1.call(Unknown Source)
+	at Test1.run(Test1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page. Reason: 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2019-04-12 14:51:28 - [MESSAGE][FAILED] - authenticate("https://fs.hexaware.com/adfs/ls/wia", "41394@hexaware.com", "Nikhil123$", 30) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2687)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$authenticate$1.call(Unknown Source)
+	at Test1.run(Test1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page. Reason: 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2019-04-12 14:50:46 - [TEST_CASE][FAILED] - Test Cases/Test1: Test Cases/Test1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2687)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$authenticate$1.call(Unknown Source)
+	at Test1.run(Test1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page. Reason: 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ManualTestCase" classname="Test Cases/ManualTestCase" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ManualTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/google_page/search_btn' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at ManualTestCase.run(ManualTestCase:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at Script1555050582526.run(Script1555050582526.groovy:21)
+	... 13 more
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EBHVR11-01-04', ip: '172.25.228.136', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at &lt;anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/command-processor.js:13409)
+	at &lt;anonymous class>.Dispatcher.executeAs/&lt;(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11194)
+	at &lt;anonymous class>.Resource.prototype.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11343)
+	at &lt;anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11290)
+	at &lt;anonymous class>.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:13198)
+	at &lt;anonymous class>.createHandlerFunc/&lt;(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2054)
+	at &lt;anonymous class>.handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2387)
+	at &lt;anonymous class>.process(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1223)
+	at &lt;anonymous class>._handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1677)
+	at &lt;anonymous class>._processBody(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1525)
+	at &lt;anonymous class>.onInputStreamReady(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1393)
+"/>
+         <system-out><![CDATA[2019-04-12 14:51:28 - [TEST_CASE][FAILED] - Test Cases/ManualTestCase: Test Cases/ManualTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/google_page/search_btn' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at ManualTestCase.run(ManualTestCase:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at Script1555050582526.run(Script1555050582526.groovy:21)
+	... 13 more
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EBHVR11-01-04', ip: '172.25.228.136', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/command-processor.js:13409)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11194)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11343)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11290)
+	at <anonymous class>.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:13198)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2054)
+	at <anonymous class>.handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2387)
+	at <anonymous class>.process(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1223)
+	at <anonymous class>._handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1677)
+	at <anonymous class>._processBody(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1525)
+	at <anonymous class>.onInputStreamReady(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1393)
+
+
+2019-04-12 14:51:29 - [TEST_STEP][PASSED] - openBrowser("www.google.com"): Browser is opened with url: 'www.google.com'
+
+2019-04-12 14:51:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-12 14:51:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-12 14:52:48 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.com'
+
+2019-04-12 14:52:48 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("google_page/search_btn")): verifyElementClickable(findTestObject("google_page/search_btn")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/google_page/search_btn' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at ManualTestCase.run(ManualTestCase:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at Script1555050582526.run(Script1555050582526.groovy:21)
+	... 13 more
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EBHVR11-01-04', ip: '172.25.228.136', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/command-processor.js:13409)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11194)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11343)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11290)
+	at <anonymous class>.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:13198)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2054)
+	at <anonymous class>.handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2387)
+	at <anonymous class>.process(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1223)
+	at <anonymous class>._handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1677)
+	at <anonymous class>._processBody(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1525)
+	at <anonymous class>.onInputStreamReady(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1393)
+
+
+2019-04-12 14:53:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-04-12 14:53:22 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/google_page/search_btn' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/google_page/search_btn' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at ManualTestCase.run(ManualTestCase:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at Script1555050582526.run(Script1555050582526.groovy:21)
+	... 13 more
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EBHVR11-01-04', ip: '172.25.228.136', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/command-processor.js:13409)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11194)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11343)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11290)
+	at <anonymous class>.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:13198)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2054)
+	at <anonymous class>.handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2387)
+	at <anonymous class>.process(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1223)
+	at <anonymous class>._handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1677)
+	at <anonymous class>._processBody(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1525)
+	at <anonymous class>.onInputStreamReady(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1393)
+)
+
+2019-04-12 14:53:22 - [MESSAGE][FAILED] - verifyElementClickable(findTestObject("google_page/search_btn")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/google_page/search_btn' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at ManualTestCase.run(ManualTestCase:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at Script1555050582526.run(Script1555050582526.groovy:21)
+	... 13 more
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EBHVR11-01-04', ip: '172.25.228.136', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/command-processor.js:13409)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11194)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11343)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11290)
+	at <anonymous class>.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:13198)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2054)
+	at <anonymous class>.handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2387)
+	at <anonymous class>.process(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1223)
+	at <anonymous class>._handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1677)
+	at <anonymous class>._processBody(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1525)
+	at <anonymous class>.onInputStreamReady(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1393)]]></system-out>
+         <system-err><![CDATA[2019-04-12 14:51:28 - [TEST_CASE][FAILED] - Test Cases/ManualTestCase: Test Cases/ManualTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/google_page/search_btn' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at ManualTestCase.run(ManualTestCase:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555060840969.run(TempTestSuite1555060840969.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:562)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$2.call(Unknown Source)
+	at Script1555050582526.run(Script1555050582526.groovy:21)
+	... 13 more
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EBHVR11-01-04', ip: '172.25.228.136', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/command-processor.js:13409)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11194)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11343)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:11290)
+	at <anonymous class>.handle(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/driver-component.js:13198)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2054)
+	at <anonymous class>.handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:2387)
+	at <anonymous class>.process(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1223)
+	at <anonymous class>._handleResponse(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1677)
+	at <anonymous class>._processBody(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1525)
+	at <anonymous class>.onInputStreamReady(file:///C:/Users/Hvuser/AppData/Local/Temp/anonymous1641238455307754836webdriver-profile/extensions/%7B9143e22c-47d1-459f-96dd-18798f6388db%7D/components/httpd.js:1393)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test2" classname="Test Cases/Test2" status="PASSED">
+         <system-out><![CDATA[2019-04-12 14:53:22 - [TEST_CASE][PASSED] - Test Cases/Test2: Test Cases/Test2
+
+2019-04-12 14:53:22 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-12 14:50:46 - [TEST_SUITE][INCOMPLETE] - SampleTestSuite: null]]></system-out>
+      <system-err><![CDATA[2019-04-12 14:50:46 - [TEST_SUITE][INCOMPLETE] - SampleTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SampleTestSuite,Firefox 56.0,,2019-04-12 14:50:46,2019-04-12 14:53:22,2m - 36.804s,INCOMPLETE
+,,,,,,
+Test Cases/Test1,Firefox 56.0,,2019-04-12 14:50:46,2019-04-12 14:51:28,42.127s,FAILED
+"openBrowser("""")",Firefox 56.0,,2019-04-12 14:50:48,2019-04-12 14:51:16,28.589s,PASSED
+"navigateToUrl(""https://login.zscloud.net/smsamlq?urlosfc=origurl%3Dhttps%253A%252F%252Fopensource%252ddemo%252eorangehrmlive%252ecom%252f%26_ordtok%3Dk643WVZ04q3ZMpq0CkCr7M7nFn&urlodmn=https%253A%252F%252Fopensource%252ddemo%252eorangehrmlive%252ecom%252f&saml_id=qZ07ZVZ2HPHMs&jscript=1set"")",Firefox 56.0,,2019-04-12 14:51:16,2019-04-12 14:51:24,8.056s,PASSED
+"authenticate(""https://fs.hexaware.com/adfs/ls/wia"", ""41394@hexaware.com"", ""Nikhil123$"", 30)",Firefox 56.0,,2019-04-12 14:51:24,2019-04-12 14:51:28,4.036s,FAILED
+,,,,,,
+Test Cases/ManualTestCase,Firefox 56.0,,2019-04-12 14:51:28,2019-04-12 14:53:22,1m - 53.589s,FAILED
+"openBrowser(""www.google.com"")",Firefox 56.0,,2019-04-12 14:51:29,2019-04-12 14:52:48,1m - 19.332s,PASSED
+"verifyElementClickable(findTestObject(""google_page/search_btn""))",Firefox 56.0,,2019-04-12 14:52:48,2019-04-12 14:53:22,33.997s,FAILED
+,,,,,,
+Test Cases/Test2,Firefox 56.0,,2019-04-12 14:53:22,2019-04-12 14:53:22,0.393s,PASSED
+return null,Firefox 56.0,,2019-04-12 14:53:22,2019-04-12 14:53:22,0.000s,PASSED

@@ -1,0 +1,24 @@
+1
+00:00:00,001 --> 00:00:00,001
+1. println("Running Setup method of Test Case")
+
+2
+00:00:00,222 --> 00:00:00,222
+1. println("I am running sample test case")
+
+3
+00:00:00,238 --> 00:00:00,238
+1. println("Running Teardown method of Test Case")
+
+4
+00:00:00,238 --> 00:00:00,238
+1. println("I am inside sample after test case")
+
+5
+00:00:02,240 --> 00:00:02,257
+1. println("Running Teardown method of Test Suite")
+
+6
+00:00:02,272 --> 00:00:02,272
+1. println("I am inside sample afer test Suite")
+

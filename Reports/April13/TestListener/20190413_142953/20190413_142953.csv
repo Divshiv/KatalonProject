@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestListener,,,2019-04-13 14:29:56,2019-04-13 14:29:59,3.082s,PASSED
+,,,,,,
+Test Cases/April13/TestListnerTestCase,,,2019-04-13 14:29:56,2019-04-13 14:29:59,2.593s,PASSED
+Start listener action : sampleBeforeTestCase,,,2019-04-13 14:29:56,2019-04-13 14:29:56,0.002s,PASSED
+"println(""I am running sample test case"")",,,2019-04-13 14:29:57,2019-04-13 14:29:57,0.061s,PASSED
+Start listener action : sampleAfterTestCase,,,2019-04-13 14:29:57,2019-04-13 14:29:57,0.000s,PASSED

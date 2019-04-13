@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="23" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="23" timestamp="2019-04-13 11:36:32" hostname="Hvuser - EBHVR11-01-04.hexa.training.local" id="Test Suites/April13/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalontraining_Divya\\SampleKatalonTraining\\Reports\\April13\\TestSuite1\\20190413_113627"/>
+         <property name="logFiles" value="D:\\Katalontraining_Divya\\SampleKatalonTraining\\Reports\\April13\\TestSuite1\\20190413_113627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hvuser - EBHVR11-01-04.hexa.training.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="172.25.228.136"/>
+         <property name="sessionId" value="09adec16ee4a0173df93f4828555e6b0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/April13/Test1" classname="Test Cases/April13/Test1" status="PASSED">
+         <system-out><![CDATA[2019-04-13 11:36:33 - [TEST_CASE][PASSED] - Test Cases/April13/Test1: Test Cases/April13/Test1
+
+2019-04-13 11:36:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-13 11:36:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-13 11:36:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-13 11:36:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-13 11:36:42 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://opensource-demo.orangehrmlive.com' successfully
+
+2019-04-13 11:36:50 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com' successfully
+
+2019-04-13 11:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-13 11:36:50 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-13 11:36:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), password): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-13 11:36:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-13 11:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-13 11:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-13 11:36:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-13 11:36:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-13 11:36:32 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/April13/Test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
